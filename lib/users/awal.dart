@@ -5,11 +5,10 @@ class Awal extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Expanded(
-            child: Container(
-              color: Color.fromARGB(217, 51, 218, 59),
-            ),
+            child: Image.asset('assets/images/rekdis.png'),
           ),
           Expanded(
             child: Column(
